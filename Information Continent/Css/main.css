@@ -1,0 +1,47 @@
+.arth {
+    background-color: rgb(235, 253, 255);
+    border: 1px black solid;
+    border-radius: 10px;
+    margin-right: 45%;
+    text-align: center;
+}
+
+.articlebuton {
+    font-weight: bold;
+}
+
+.pubchat {
+    background-color: rgba(0, 25, 67, 0.929);
+    color: white;
+    font-family: serif;
+    text-align: center;
+}
+
+.chat {
+    background-color: #d6d6d6;
+    border: 3px black solid;
+}
+
+.mainchat img {
+    width: 30px;
+    border-radius: 20px;
+}
+
+.my {
+    background-color: #dfdfda;
+    margin-top: 5%;
+    padding: 3px;
+    border: 2px black solid;
+}
+
+.my h2 {
+    font-family: serif;
+    margin-left: 10%;
+    margin-top: 1%;
+    text-decoration: underline;
+}
+
+.mycard {
+    background-color: #282828;
+    color: aliceblue;
+}

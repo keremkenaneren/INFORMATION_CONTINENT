@@ -1,0 +1,82 @@
+.navbar-nav {
+    margin-right: 8%;
+}
+
+.navbar {
+    border-bottom: 2px black solid;
+    font-family: serif;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    margin-left: 15%;
+}
+
+.slide img {
+    height: 600px;
+}
+
+.jumbotron {
+    border-radius: 20px;
+}
+
+.exarticle {
+    background-color: rgb(228, 254, 255);
+    margin-right: 60%;
+    text-align: center;
+    margin-bottom: 2%;
+    border: 2px rgb(142, 142, 142) solid;
+    border-radius: 10px;
+    font-family: serif;
+}
+
+#about {
+    background-color: rgb(228, 254, 255);
+    border: 2px rgb(142, 142, 142) solid;
+    border-radius: 10px;
+}
+
+.head {
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.articlebtn {
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    font-family: serif;
+}
+
+.rounded {
+    width: 375px;
+    margin-top: 6%;
+    margin-right: 20%;
+}
+
+.footer {
+    background-color: rgb(233, 233, 233);
+    margin-top: 3%;
+    padding: 1.7rem 0;
+    border-top: 2px black solid;
+}
+
+.text {
+    margin-left: 30%;
+    text-align: left;
+}
+
+.text ul {
+    list-style-type: none;
+}
+
+.text li {
+    display: inline;
+    margin-left: 3%;
+}
+
+.text a {
+    color: black;
+    text-transform: uppercase;
+}

@@ -1,0 +1,17 @@
+.container-xl {
+    background-color: #ffffff;
+}
+
+.profil {
+    margin-top: 10%;
+    padding: 6%;
+}
+
+.profilimg {
+    width: 300px;
+}
+
+.form-group {
+    width: 400px;
+    margin-left: 7%;
+}

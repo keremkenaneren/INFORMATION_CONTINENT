@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information Continent</title>
+    <link rel="icon" href="images/pen-solid.svg" type=" image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="Css/profile.css">
+    <link rel="stylesheet" href="fontawesome-free-6.3.0-web/css/all.min.css">
+</head>
+
+<body style="background: url(images/beton.jpg);">
+    <div style="background-color: rgb(228, 254, 255); " class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><i class="fa-solid fa-pen mr-3"></i>Information Continent</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">
+                            <h5><i class="fa-solid fa-user mr-4"></i> Profile </h5>
+                        </a>
+                    </li>
+                    <li class="nav-item active ml-5 articlebuton">
+                        <a target="_blank" href="Article.html"><button class="btn btn-success">Create
+                                Article</button></a>
+                    </li>
+                    <li class="nav-item active ">
+                        <div class="input-group mt-1  ml-5">
+                            <div class="input-group-prepend">
+                                <button class="btn btn-outline-success" type="button" id="button-addon1"><i
+                                        class="fa-solid fa-magnifying-glass"></i></button>
+                            </div>
+                            <input type="text" class="form-control" placeholder="search"
+                                aria-label="Example text with button addon" aria-describedby="button-addon1">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container-xl my-5 shadow shadow-lg">
+        <div class="profil">
+            <div class="row">
+                <div class="col-sm-3 "><img
+                        src="https://media.istockphoto.com/id/1073173288/tr/vekt%C3%B6r/profil-foto%C4%9Fraf-kullan%C4%B1c%C4%B1-simgesi.jpg?s=170667a&w=0&k=20&c=Lv3u4_hLIMcWP5erxrSZmgji3wO59JbrfupnX71Q4Yg="
+                        alt="profile" class="profilimg">
+                    <div>
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleFormControlFile1">Profil Photograph</label>
+                                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-sm-9">
+                    <div>
+                        <div>
+                            <input class="form-control form-group" type="text"
+                                placeholder="Mail : examplemail123@gmail.com" readonly>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">User name :</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="username">
+                        </div>
+                        <div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Description</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Public</label>
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Private</label>
+                            </div>
+                            <div>
+                                <input class="form-control form-group" type="text" placeholder="password... ******"
+                                    readonly>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+</body>
