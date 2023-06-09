@@ -34,6 +34,10 @@
 ###### Hedef Kitle
 * Okuma , yazmayı bilen herkes...
 
+
+###### Ek bilgi :
+* Sadece html, css ve bootstrap kullanılmıştır
+
 ------------
 ![Ekran görüntüsü 2023-02-24 201613](https://user-images.githubusercontent.com/114931693/221253744-1b45e05d-1760-462a-96e3-281037c4e8c7.png)
 ![Ekran görüntüsü 2023-02-24 201630](https://user-images.githubusercontent.com/114931693/221253804-32977d89-13d1-484c-94b3-bf4edc08a341.png)
